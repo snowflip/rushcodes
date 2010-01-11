@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch2p6_Bitmaps", "Ch2p6_Bitmaps.vcproj", "{472D832A-91FB-470F-A369-90CBAC4580E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{472D832A-91FB-470F-A369-90CBAC4580E5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{472D832A-91FB-470F-A369-90CBAC4580E5}.Debug|Win32.Build.0 = Debug|Win32
+		{472D832A-91FB-470F-A369-90CBAC4580E5}.Release|Win32.ActiveCfg = Release|Win32
+		{472D832A-91FB-470F-A369-90CBAC4580E5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
