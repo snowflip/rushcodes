@@ -1,0 +1,5 @@
+
+Opening Error Output File (ERROR.TXT) on Sun Mar 07 01:46:27.663, 2010
+
+
+Closing Error Output File.
