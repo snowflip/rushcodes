@@ -1,0 +1,34 @@
+As long as :只要
+	as long as IClassFactory's VTable defines its first three memebers as QueryInterface, AddRed, and Release, that's ok.
+
+get hold of:抓住，取得
+	Now we need to look at how a program gets hold of one of our IExample objects.
+
+do so:	这么做
+	i refuse to do so.
+
+on behalf of:为了...的利益， 代表
+	It's not really the program that loads our DLL.	Rather, the operating system does so on behalf of the program when the program calls CoGetDLLClassObject.
+	
+that's the case: 确实是这样，这样的话
+	If the only thing passed to the function is that pointer, then you simply put THIS in parentheses. That's the case for the AddRef and Release functions.
+
+so that: 以便
+	I will give you all the facts so that you can judge for yourself.
+
+as well as: 也，又
+	She is a talented musician as well as being a photographer.
+
+works for: 对...起作用
+	Getting up early really works for my healthy.
+
+to be sure: 诚然，无可否认
+	To be sure, this is a weird macro, and it's the way mostly to define a COM object so that it works both for a c complier as well as a C++ complier.
+
+all set: 准备就绪。
+	Paste our two GUID macros into this include file, and we're all set.
+
+feed to: 供应给，向...提供食物
+	Here's our DEF file, which must be fed to the linker.
+
+

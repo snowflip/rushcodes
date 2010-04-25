@@ -1,0 +1,7 @@
+per se :自身，本质上
+	This tutorial does not discuss how to create a DLL per se, so if you're unfamiliar whith that, then you shourd first read a tutorial about DLLs.
+
+
+dictate: 命令，规定
+	Microsoft also dictate that we must add a function to our DLL called DllGetClassObject.
+
