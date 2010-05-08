@@ -1,0 +1,42 @@
+vc 包含头文件综述
+D:\program files\Microsoft Visual Studio 9.0\VC\include
+
+
+*stdio.h - definitions/declarations for standard I/O routines
+*
+*       Copyright (c) Microsoft Corporation. All rights reserved.
+*
+*Purpose:
+*       This file defines the structures, values, macros, and functions
+*       used by the level 2 I/O ("standard I/O") routines.
+*       [ANSI/System V]
+remark： 该库非常重要，几乎是c标准库中最重要的了。
+
+
+*stdlib.h - declarations/definitions for commonly used library functions
+*
+*       Copyright (c) Microsoft Corporation. All rights reserved.
+*
+*Purpose:
+*       This include file contains the function declarations for commonly
+*       used library functions which either don't fit somewhere else, or,
+*       cannot be declared in the normal place for other reasons.
+*       [ANSI]
+remark: 没有明显归属的很多库实用函数。
+exp:	exit
+
+
+
+*direct.h - function declarations for directory handling/creation
+*
+*       Copyright (c) Microsoft Corporation. All rights reserved.
+*
+*Purpose:
+*       This include file contains the function declarations for the library
+*       functions related to directory handling and creation.
+remark: 目录操作。
+
+
+
+
+

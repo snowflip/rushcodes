@@ -1,0 +1,25 @@
+Windows sdk 包含文件
+
+
+windows.h
+Abstract:
+    Master include file for Windows applications.
+	
+
+winbase.h
+remark: 主要windows函数都在这， 大量！
+exp:
+	LoadLibrary
+	FreeLibrary
+	GetCommandLine
+	GetModuleHandle
+	GetEnvironmentVariable
+
+	
+
+ mmsystem.h -- Include file for Multimedia API's
+ remark： 多媒体相关api
+ exp：
+	timeBeginPeriod
+	timeGetTime
+	

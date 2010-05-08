@@ -1,0 +1,6 @@
+
+crt包含头文件
+D:\program files\Microsoft Visual Studio 9.0\VC\crt\src
+
+*atonexit.c - _onexit/atexit for using the MSVCRT* model of C run-time
+remark： 程序退出时的回调
