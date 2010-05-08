@@ -67,3 +67,45 @@ static void redirect_output(void)
 	setbuf(stderr, NULL);			/* No buffering */
 	stdioRedirectEnabled = 1;
 }
+
+
+
+
+//退出程序时回调
+
+/* Remove the output files if there was no output written */
+static void cleanup_output(void) {
+	FILE *file;
+	int empty;
+
+	/* Flush the output in case anything is queued */
+	fclose(stdout);
+	fclose(stderr);
+
+	/* Without redirection we're done */
+	if (!stdioRedirectEnabled) {
+		return;
+	}
+
+	/* See if the files have any output in them */
+	if ( stdoutPath[0] ) {
+		file = fopen(stdoutPath, TEXT("rb"));
+		if ( file ) {
+			empty = (fgetc(file) == EOF) ? 1 : 0;
+			fclose(file);
+			if ( empty ) {
+				remove(stdoutPath);
+			}
+		}
+	}
+	if ( stderrPath[0] ) {
+		file = fopen(stderrPath, TEXT("rb"));
+		if ( file ) {
+			empty = (fgetc(file) == EOF) ? 1 : 0;
+			fclose(file);
+			if ( empty ) {
+				remove(stderrPath);
+			}
+		}
+	}
+}
