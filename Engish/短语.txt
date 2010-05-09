@@ -31,4 +31,24 @@ all set: 准备就绪。
 feed to: 供应给，向...提供食物
 	Here's our DEF file, which must be fed to the linker.
 
+be pleased to: 对……高兴地从事……，做……感到愉快
+draw upon: 利用
+	You will be pleased to know that i receive a small percentage of the prive you pay for each book.That money helps me pay my rent and feed myself, and enables me to write more books in the future.
 
+in doing: 在干...时
+	In writing this book, i've drawn upon some of my earlier writing about c# and the .NET Framework.
+
+adept at: 熟练与，精于
+	It is certainly not a tutorial for learning the language, but a great book to read after you've become adept at C# programming.
+
+be well aware: 清楚认识到
+a waste of time: 浪费时间
+	I am well aware that you'll probably eventually be coding for graphical enviroments, and that you might consider learning about character-mode programming to be a complete waste of your time.
+
+mess around with: 胡闹，瞎搞，乱动
+	Don't mess around with sharp knives.
+	The big difference that veteran programmers will discover is that c# does not require you mess around with pointers.
+
+at the very least: 至少，一点，丝毫（加强语气）
+	At the very least, you'll be disabused of the notion that you need the powerful reources of Visual Studio to compile every .NET program you'll ever write.
+	

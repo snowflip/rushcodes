@@ -5,3 +5,64 @@ per se :自身，本质上
 dictate: 命令，规定
 	Microsoft also dictate that we must add a function to our DLL called DllGetClassObject.
 
+
+evident: 明显的，显而易见的
+	It si evident that smoking is harmful to health.
+	It soon become evident that this Chapter Zero would be very long.
+
+profound: 深度的，深切的，深远的，深奥的，意味深长的。
+	He has a profound knowledge of mathematics.
+alas: (主 诗 文 或 幽默)哎呀，唉（表示悲痛、遗憾或关心）
+	Alas, my love, i must leave now.
+	These other books aren't free, alas.
+
+draw: 抽取，抽出，利用....
+	Some of the later chapters were drawn from appendices of that book.
+
+
+adept: 熟练于，精于
+	He is an adept mechanic.
+	She is adept at cooking.
+
+mechanic: 技工，机修工
+	The mechanic repaired my car.
+
+subtle: 微妙的，难以描述的，难以分析的。巧妙的，精妙，精湛的。
+	There are many subtle and interesting aspects of .NET programming that Richter's book explore in much more depth than you'l find in the pages ahead that i've written.
+rudiment: 基础，基本原理，雏形，萌芽。
+	She taught the girls the rudiments of reading and writing.
+	Because this book is intended to teach C# and the rudiment of .NET...
+
+applicable: 相关的，使用的。
+	The character-formating techniques you learn here are directly applicable to graphical programming as well.
+infuatructure: 基础设施
+	The CLS and CTS are in turn part of the Common Language Infrasture(CLI).
+
+
+resemble: 长得像，类似于
+	some people resemble their dogs
+	The program is genarally compiled to a processor-independent intermediate language that resembles machine code.
+
+veteran: 老兵，退伍军人，经验丰富的人
+	a veteran of two world wars.
+	The big difference that veteran programmers will discover is that c# does not require you mess around with pointers.
+
+incorporate: 包含，收入
+	C# incorporate much of the basic expression and statement syntax of C.
+
+relegate: 降职，降级，把....至于次要地位
+interoperability: 互用性，协同工作的能力，可交互并利用西信息的.
+	they aim to prevent women from being relegated to a secondary role.
+	Tranditional C-like pointers are supported in C# syntax, but they are normally relegated to interoperability with existing code.
+
+
+disabuse: 使（某人）醒悟；去除（某人）错误的想法
+	he quickly disabused me of my fanciful notions.
+	At the very least, you'll be disabused of the notion that you need the powerful reources of Visual Studio to compile every .NET program you'll ever write.
+
+
+
+
+
+
+	
