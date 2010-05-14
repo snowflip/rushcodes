@@ -35,6 +35,7 @@ be pleased to: 对……高兴地从事……，做……感到愉快
 draw upon: 利用
 	You will be pleased to know that i receive a small percentage of the prive you pay for each book.That money helps me pay my rent and feed myself, and enables me to write more books in the future.
 
+
 in doing: 在干...时
 	In writing this book, i've drawn upon some of my earlier writing about c# and the .NET Framework.
 
@@ -52,3 +53,4 @@ mess around with: 胡闹，瞎搞，乱动
 at the very least: 至少，一点，丝毫（加强语气）
 	At the very least, you'll be disabused of the notion that you need the powerful reources of Visual Studio to compile every .NET program you'll ever write.
 	
+

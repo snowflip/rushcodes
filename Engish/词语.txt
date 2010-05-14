@@ -6,6 +6,46 @@ dictate: 命令，规定
 	Microsoft also dictate that we must add a function to our DLL called DllGetClassObject.
 
 
+thread-safe: 线程安全
+	Since we don't use global data in our IExample functions, we're thread-safe.
+
+essentially: 本质上，基本上
+	It essentially removes the registry keys that RegIExample created. 
+
+bypass: 旁路，旁道
+	CoCreateInstance directly returns our IExample, bypassing the need for us to get the IClassFactory.
+
+remainning: 剩下的
+	In the remainning files, search and replace the string IExample with the name of your own object.
+
+refinement: 改进，改善，提炼，精华，优雅...
+	All programs have bugs and need endless refinement.
+
+draft document: 草案
+	TR1 is not a standard itself, but rather a draft document.
+
+accustom: 使习惯于
+	I have accustomed myself to working long hours.
+	Accustoming yourself to c++.
+
+federation: 联邦，同盟
+
+view: 视
+	View C++ as a federation of languages. 视C++为一个语言联邦
+
+groovy:	很帅的，极好的
+
+erode: 侵蚀，腐蚀
+	Waves eroded the shore.	
+
+distorted: 扭曲的
+ditort:	扭曲，弄弯
+
+typewriter: 打字机
+
+fancy: 爱好，迷恋，想象力
+
+
 evident: 明显的，显而易见的
 	It si evident that smoking is harmful to health.
 	It soon become evident that this Chapter Zero would be very long.
@@ -66,3 +106,4 @@ disabuse: 使（某人）醒悟；去除（某人）错误的想法
 
 
 	
+
