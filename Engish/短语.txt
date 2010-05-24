@@ -54,3 +54,8 @@ at the very least: 至少，一点，丝毫（加强语气）
 	At the very least, you'll be disabused of the notion that you need the powerful reources of Visual Studio to compile every .NET program you'll ever write.
 	
 
+marshal: 元帅， 司仪，典礼官， 整理整顿
+	the general marshalled his troops.
+	Zhukov was a marshal of the former Soviet Union.
+
+	
