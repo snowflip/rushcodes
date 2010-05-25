@@ -11,3 +11,5 @@ comprise: 组成，构成，由...组成
 	This could be modeled in an object-oriented implementation by a "person object" with "slots" to hold the data that comprises the entry:the person's name, a list of phone numbers, and a list of addresses.
 
 
+persona: 表面形象，人格面貌
+	her public persona.
