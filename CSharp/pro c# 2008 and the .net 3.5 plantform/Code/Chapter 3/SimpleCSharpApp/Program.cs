@@ -1,11 +1,7 @@
-// This program illustrates a simple C# app.
-//
-// Note, I have specified command line args
-// using the Properties window for testing.
-//
-// Also note I have included the *.bat file in 
-// this project if you wish to test for the app's
-// error code (see text).
+//command line args
+
+//Environment
+
 
 using System;
 using System.Collections.Generic;

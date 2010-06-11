@@ -1,5 +1,12 @@
-// This project illustrates basic I/O
-// with the console and .NET string formatting.
+/*
+
+    Console.WriteLine
+
+    ConsoleColor
+    Console.ForegroundColor
+ 
+ */
+
 
 using System;
 using System.Collections.Generic;
