@@ -1,0 +1,109 @@
+/L15"BAT_FILE" BAT_FILE_LANG Line Comment = rem Line Comment Alt = Rem Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = " File Extensions = bat cmd
+/Delimiters = ~!@^&*()-+=|/\{}[]:;"`'<> ,    .?
+/Function String = "call"
+/Function String 1 = "start"
+/Function String 2 = "%:"
+/Variable String = "^%[1-9a-zA-Z]++[12345^%]"
+/Indent Strings = "(" "if" "else"
+/Unindent Strings = ")"
+/Open Brace Strings = "{" "(" "%"
+/Close Brace Strings = "}" ")" "%"
+/Open Fold Strings = "("
+/Close Fold Strings = ")"
+/C1"Keywords" STYLE_KEYWORD
+assoc   
+at      
+attrib  
+break   
+cacls   
+call    
+cd      
+chcp    
+chdir   
+chkdsk  
+chkntfs
+cls     
+cmd     
+color   
+comp    
+compact
+convert
+copy    
+date    
+del     
+dir     
+diskcomp
+diskcopy
+doskey  
+echo    
+endlocal
+erase   
+exit    
+fc      
+find    
+findstr
+for     
+format  
+ftype   
+goto    
+graftabl
+help    
+if      
+label   
+md      
+mkdir   
+mode    
+more    
+move    
+path    
+pause   
+popd    
+print   
+prompt  
+pushd   
+rd      
+recover
+rem     
+ren     
+rename  
+replace
+rmdir   
+set     
+setlocal
+shift   
+sort    
+start   
+subst   
+time    
+title   
+tree    
+type    
+ver     
+verify  
+vol     
+xcopy   
+/C2"C++ Keywords" STYLE_KEYWORD
+/C3"Microsoft C extensions" STYLE_EXTENSION
+@
+%
+(
+)
+/C5"COLOR5" STYLE_COLOR5
+!
+%
+&
+*
++
+-
+// /
+<
+= ==
+>
+^
+|
+~
+/C6"COLOR6" STYLE_COLOR6
+/C7"Variables"
+** % x%
+/C8"Constant/Global/Symbol"
+** WII DEB FIN REL

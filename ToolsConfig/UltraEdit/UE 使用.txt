@@ -1,0 +1,31 @@
+UE的使用
+
+自动完成
+	一定要开一自动完成窗口选项，非常爽。
+
+注释：
+	分两种，一种注释行，一种注释块，分别用EditCommentAdd，EditCommentSelection表示。
+	删除是EditCommentRemove， EditUncommentSelection。
+	EditCommentAdd 		ctrl+k, ctrl+c
+	EditCommentRemove	ctrl+k, ctrl+u
+	EditCommentSelection	ctrl+shift+k, ctrl+shift+c
+	EditUncommentSelection	ctrl+shift+k, shift+shift+u
+
+	注意：ctrl+shift+k一般为屏幕软键盘，此时，要把软键盘快捷键搞掉--毕竟这个没什么用。
+
+
+语法高亮
+	语法高亮是通过提供语法高亮文件实现的，在wordfiles目录中。
+	比如像cegui的scheme，layout文件，其实语法是xml，但是ue并不知道，那么可以在xml的语法文件中，在其Extensions中加入layout scheme,重启，ue即可识别了。
+	当然，也可以创建新的语法文件。比如lua的语法高亮文件。
+
+
+配置命令行运行工具：
+高级->工具栏配置->命令->插入：
+例：是UE可以运行bat文件
+名称：Run Bat
+命令行: cmd /c "%f"		// /c 代表运行完后关闭，cmd的使用方法，可以在cmd中打cmd /?查看，他还有一个有用的是/k，运行完后不关闭. %f代表当前文件
+工作目录: %p
+图标： 可选
+
+然后在”输出“选项卡中，勾选”输出到列表框“，比较爽！
