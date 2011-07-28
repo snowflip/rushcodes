@@ -1,0 +1,41 @@
+
+14/02/2000
+
+Model Name:			Some Tasty Bird (stb)  
+
+Authors:			Tim "tpe" Evison
+		  	
+Email Address:           	timevison@hotmail.com
+
+Model Description:
+It's a chicken, a plucked naked chicken, a chick with no clothes goose pimples and a silly expression. But then it's a very silly chicken. It's mean and fearless and foul bird but a little stupid (well at least the bot is). If you are a serious quake player it might not be for you. I don't think many SERIOUS quake players really want to be a chicken? But hell, maybe they want the target practice on the bot! Me I want to be that chicken. Its the first Quake 3 plugin player model that I have completed entirely on my own and the first time I have animated using 3D Studio Max or Character studio. There are loads of things I would have liked to change in the animation, but I had to stop there, it was a bit much for my first time. I hope you get a laugh out of it anyway.
+
+Thanks to: Caro for making me do it (It's dedicated to you babe), Tobias I hope you firgive me for teaching you to blow up your dad, Orianne for keeping me on my toes, Shithead, monster, Player, doc rob, tone and Scott Ruggels for their technical advice and of course all at polycount.
+
+
+================================================================
+* Play Information *
+Original Animation   	yes
+New Sounds:		yes
+CTF Skins:		Yes
+Bots:           	Yes
+
+Software used: 3DS Max, Character Studio, Lightwave, 3d Explorer, Adobe Photoshop,  Q3data and Q3 Bot Designer.
+
+Installation:
+Place the md3-stb.pk3 file in your Baseq3 
+
+Choose the STB icon from your player models or press the ~ key under the Esc key on your keyboard and type /model stb
+
+If you can't find the icon either use the console or put this readme in a directory as follows
+[your quake directory]\baseq3\models\players\stb\
+
+Uninstallation: 
+Delete the md3-stb.pk3 file from your Baseq3 and any directories you have created.
+
+
+Buuuugs: Bound to be, let me know and if they aren't too difficult i will fix them.
+
+
+* Copyright / Permissions *
+QUAKE III Arena(R) are registered trademarks of id Software, Inc. the character STB Some Tasty Bird and its image are copyright. This model may be freely distributed. It may be used as a base for other models only after the authors permission.  

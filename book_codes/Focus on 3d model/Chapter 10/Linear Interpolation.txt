@@ -1,0 +1,14 @@
+Linear Interpolation
+
+This demo demonstrates Linear Interpolation with respect to time.
+
+Files:
+LERP.cpp - Main file with all Linear Interp code, also contains WinMain and global Init, Main Loop, and Shutdown functions.
+Linear Interpolation.dsw/Linear Interpolation.dsp Microsoft Visual C++ 6.0 project files.
+
+Controls:
+Up/Down - Change the total time for the box to travel from one end to the other.
+
+Contact:
+Website: http://books.codershq.com
+e-mail: evan@codershq.com

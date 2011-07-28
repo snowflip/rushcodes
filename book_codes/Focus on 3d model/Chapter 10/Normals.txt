@@ -1,0 +1,17 @@
+Normal
+
+This is a demo that will show you the difference between vertex and face normals.
+
+Files:
+Normals.cpp - Main file, contains WinMain and global Init, Main Loop, and Shutdown functions. In this case it also contains the normal calculation and display code.
+normals.dsp/normals.dsw Microsoft Visual C++ 6.0 project files.
+
+Controls:
+N - Toggle between face and vertex normals
+W - Turn wireframe on and off
+D - Turn the display of normals on and off
+
+
+Contact:
+Website: http://books.codershq.com
+e-mail: evan@codershq.com

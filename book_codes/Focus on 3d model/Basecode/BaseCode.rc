@@ -1,0 +1,210 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS DIALOG DISCARDABLE  0, 0, 119, 159
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "Verdana"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,8,139,46,12
+    DEFPUSHBUTTON   "Run",IDRUN,66,139,46,12
+    CONTROL         103,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE,0,0,
+                    119,43
+    GROUPBOX        "Resolution",IDC_RESGROUP,6,49,56,85
+    CONTROL         "640x480",IDC_640,"Button",BS_AUTORADIOBUTTON | BS_FLAT | 
+                    WS_GROUP,10,60,49,15
+    CONTROL         "800x600",IDC_800,"Button",BS_AUTORADIOBUTTON | BS_FLAT,
+                    10,74,49,15
+    CONTROL         "1024x768",IDC_1024,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,10,88,49,15
+    CONTROL         "1280x1024",IDC_1280,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,10,102,49,15
+    CONTROL         "1600x1200",IDC_1600,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,10,116,49,15
+    GROUPBOX        "Depth",IDC_DEPTH,63,49,52,43
+    CONTROL         "16 bpp",IDC_16BPP,"Button",BS_AUTORADIOBUTTON | BS_FLAT | 
+                    WS_GROUP,67,60,47,13
+    CONTROL         "32 bpp",IDC_32BPP,"Button",BS_AUTORADIOBUTTON | BS_FLAT,
+                    67,74,47,13
+    CONTROL         "Fullscreen",IDC_FULLSCREEN,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,65,102,45,21
+END
+
+IDD_SKELETAL1 DIALOGEX 0, 0, 144, 289
+STYLE DS_NOFAILCREATE | WS_POPUP | WS_VISIBLE | WS_BORDER
+EXSTYLE WS_EX_NOPARENTNOTIFY | WS_EX_TOOLWINDOW | WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Joint 0",IDC_JOINT0,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,25,25,41,14
+    CONTROL         "Joint 1",IDC_JOINT1,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,25,42,39,14
+    CONTROL         "Joint 2",IDC_JOINT2,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,75,25,44,14
+    CONTROL         "Joint 3",IDC_JOINT3,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,75,42,40,14
+    GROUPBOX        "Active Joint",IDC_STATIC,12,10,118,52
+    EDITTEXT        IDC_ROTZ,94,86,38,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ROTY,52,86,42,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ROTX,9,86,44,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRANSZ,94,126,38,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRANSY,52,126,41,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRANSX,10,126,42,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Reset",IDC_RESET,86,264,45,14,BS_FLAT
+    GROUPBOX        "Rotation Quaternion",IDC_STATIC,6,147,129,26
+    GROUPBOX        "Transformation Matrix",IDC_STATIC,6,184,129,73
+    EDITTEXT        IDC_Q0,8,157,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_Q1,40,157,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_Q2,72,157,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_Q3,105,157,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M0,8,197,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M1,40,197,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M2,72,197,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M3,105,197,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M4,8,212,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M5,40,212,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M6,72,212,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M7,105,212,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M8,8,227,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M9,40,227,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M10,72,227,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M11,105,227,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M12,7,242,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M13,39,242,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M14,71,242,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_M15,105,242,30,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    GROUPBOX        "Parent Joint",IDC_STATIC,22,258,53,24
+    EDITTEXT        IDC_PARENT,36,267,25,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SRX,"msctls_updown32",UDS_WRAP | 
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS,50,74,6,14
+    CONTROL         "Spin1",IDC_SRY,"msctls_updown32",UDS_WRAP | 
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS,92,72,6,14
+    CONTROL         "Spin1",IDC_SRZ,"msctls_updown32",UDS_WRAP | 
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS,129,74,6,14
+    CONTROL         "Spin1",IDC_STX,"msctls_updown32",UDS_WRAP | 
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS,48,112,6,14
+    CONTROL         "Spin1",IDC_STY,"msctls_updown32",UDS_WRAP | 
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS,89,113,6,14
+    CONTROL         "Spin1",IDC_STZ,"msctls_updown32",UDS_WRAP | 
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS,126,112,6,14
+    GROUPBOX        "       X                  Y                    Z",
+                    IDC_STATIC,6,113,129,33
+    GROUPBOX        "       X                   Y                   Z",
+                    IDC_STATIC,6,74,129,31
+    LTEXT           "Rotation",IDC_STATIC,57,66,33,8
+    LTEXT           "Translation",IDC_STATIC,49,105,39,8
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LOGO                BITMAP  DISCARDABLE     "logo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SKELETAL1, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 135
+        VERTGUIDE, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 282
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
