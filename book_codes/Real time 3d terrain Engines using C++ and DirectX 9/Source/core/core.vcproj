@@ -1,113 +1,191 @@
-<?xml version="1.0" encoding = "Windows-1252"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="7.00"
+	Version="8.00"
 	Name="core"
-	SccProjectName="&quot;$/3D Terrain Engines/source/core&quot;, QAAAAAAA"
-	SccLocalPath="..\..\..\3d terrain engines from the ground up\source\core">
+	ProjectGUID="{E75A46A9-9460-4CC3-A1F2-7D5B74D7DAFD}"
+	>
 	<Platforms>
 		<Platform
-			Name="Win32"/>
+			Name="Win32"
+		/>
 	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
 			OutputDirectory=".\Debug"
 			IntermediateDirectory=".\Debug"
 			ConfigurationType="4"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC70.vsprops"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				AdditionalIncludeDirectories="..\"
 				PreprocessorDefinitions="_LIB,WIN32,_DEBUG,_CODE_TIMING,_DEBUG_OUTPUT"
 				BasicRuntimeChecks="3"
-				RuntimeLibrary="5"
-				UsePrecompiledHeader="2"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="0"
 				PrecompiledHeaderFile=".\Debug/core.pch"
 				AssemblerListingLocation=".\Debug/"
 				ObjectFile=".\Debug/"
 				ProgramDataBaseFileName=".\Debug/"
 				WarningLevel="3"
-				SuppressStartupBanner="TRUE"
+				SuppressStartupBanner="true"
 				DebugInformationFormat="4"
-				CompileAs="0"/>
+				CompileAs="0"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
-			<Tool
-				Name="VCLibrarianTool"
-				OutputFile=".\Debug\core.lib"
-				SuppressStartupBanner="TRUE"/>
-			<Tool
-				Name="VCMIDLTool"/>
-			<Tool
-				Name="VCPostBuildEventTool"/>
-			<Tool
-				Name="VCPreBuildEventTool"/>
-			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="_DEBUG"
-				Culture="1033"/>
+				Culture="1033"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile=".\Debug\core.lib"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
 			OutputDirectory=".\Release"
 			IntermediateDirectory=".\Release"
 			ConfigurationType="4"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC70.vsprops"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				InlineFunctionExpansion="1"
 				AdditionalIncludeDirectories="..\"
 				PreprocessorDefinitions="WIN32,NDEBUG,_LIB"
-				StringPooling="TRUE"
-				RuntimeLibrary="4"
-				EnableFunctionLevelLinking="TRUE"
-				UsePrecompiledHeader="2"
+				StringPooling="true"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="0"
 				PrecompiledHeaderFile=".\Release/core.pch"
 				AssemblerListingLocation=".\Release/"
 				ObjectFile=".\Release/"
 				ProgramDataBaseFileName=".\Release/"
 				WarningLevel="3"
-				SuppressStartupBanner="TRUE"
-				CompileAs="0"/>
+				SuppressStartupBanner="true"
+				CompileAs="0"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
-			<Tool
-				Name="VCLibrarianTool"
-				OutputFile=".\Release\core.lib"
-				SuppressStartupBanner="TRUE"/>
-			<Tool
-				Name="VCMIDLTool"/>
-			<Tool
-				Name="VCPostBuildEventTool"/>
-			<Tool
-				Name="VCPreBuildEventTool"/>
-			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="NDEBUG"
-				Culture="1033"/>
+				Culture="1033"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile=".\Release\core.lib"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Profile|Win32"
 			OutputDirectory=".\core___Win32_Profile"
 			IntermediateDirectory=".\core___Win32_Profile"
 			ConfigurationType="4"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC70.vsprops"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
@@ -115,168 +193,225 @@
 				AdditionalIncludeDirectories="..\"
 				PreprocessorDefinitions="_LIB,WIN32,_DEBUG,_CODE_TIMING"
 				BasicRuntimeChecks="3"
-				RuntimeLibrary="5"
-				UsePrecompiledHeader="2"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="0"
 				PrecompiledHeaderFile=".\core___Win32_Profile/core.pch"
 				AssemblerListingLocation=".\core___Win32_Profile/"
 				ObjectFile=".\core___Win32_Profile/"
 				ProgramDataBaseFileName=".\core___Win32_Profile/"
 				WarningLevel="3"
-				SuppressStartupBanner="TRUE"
+				SuppressStartupBanner="true"
 				DebugInformationFormat="3"
-				CompileAs="0"/>
+				CompileAs="0"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
-			<Tool
-				Name="VCLibrarianTool"
-				OutputFile=".\core___Win32_Profile\core.lib"
-				SuppressStartupBanner="TRUE"/>
-			<Tool
-				Name="VCMIDLTool"/>
-			<Tool
-				Name="VCPostBuildEventTool"/>
-			<Tool
-				Name="VCPreBuildEventTool"/>
-			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="_DEBUG"
-				Culture="1033"/>
+				Culture="1033"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile=".\core___Win32_Profile\core.lib"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 	</Configurations>
+	<References>
+	</References>
 	<Files>
 		<Filter
 			Name="Source Files"
-			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+			>
 			<File
-				RelativePath=".\application_timer.cpp">
+				RelativePath=".\application_timer.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\code_timer.cpp">
+				RelativePath=".\code_timer.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\data_types.cpp">
+				RelativePath=".\data_types.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\debug.cpp">
+				RelativePath=".\debug.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\debug_channel.cpp">
+				RelativePath=".\debug_channel.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\file.cpp">
+				RelativePath=".\file.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\memory.cpp">
+				RelativePath=".\memory.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\midpoint_noise.cpp">
+				RelativePath=".\midpoint_noise.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\random_numbers.cpp">
+				RelativePath=".\random_numbers.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\resource_pool_item.cpp">
+				RelativePath=".\resource_pool_item.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\resource_pool_manager.cpp">
+				RelativePath=".\resource_pool_manager.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\stack_trace.cpp">
+				RelativePath=".\stack_trace.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\string.cpp">
+				RelativePath=".\string.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\system_info.cpp">
+				RelativePath=".\system_info.cpp"
+				>
 			</File>
 			<File
-				RelativePath=".\timer.cpp">
+				RelativePath=".\timer.cpp"
+				>
 			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
-			Filter="h;hpp;hxx;hm;inl">
+			Filter="h;hpp;hxx;hm;inl"
+			>
 			<File
-				RelativePath=".\application_timer.h">
+				RelativePath=".\application_timer.h"
+				>
 			</File>
 			<File
-				RelativePath=".\bit_flags.h">
+				RelativePath=".\bit_flags.h"
+				>
 			</File>
 			<File
-				RelativePath=".\code_timer.h">
+				RelativePath=".\code_timer.h"
+				>
 			</File>
 			<File
-				RelativePath=".\com_helpers.h">
+				RelativePath=".\com_helpers.h"
+				>
 			</File>
 			<File
-				RelativePath=".\constants.h">
+				RelativePath=".\constants.h"
+				>
 			</File>
 			<File
-				RelativePath=".\core.h">
+				RelativePath=".\core.h"
+				>
 			</File>
 			<File
-				RelativePath=".\data_pool.h">
+				RelativePath=".\data_pool.h"
+				>
 			</File>
 			<File
-				RelativePath=".\data_types.h">
+				RelativePath=".\data_types.h"
+				>
 			</File>
 			<File
-				RelativePath=".\debug.h">
+				RelativePath=".\debug.h"
+				>
 			</File>
 			<File
-				RelativePath=".\debug_channel.h">
+				RelativePath=".\debug_channel.h"
+				>
 			</File>
 			<File
-				RelativePath=".\file.h">
+				RelativePath=".\file.h"
+				>
 			</File>
 			<File
-				RelativePath=".\memory.h">
+				RelativePath=".\memory.h"
+				>
 			</File>
 			<File
-				RelativePath=".\midpoint_noise.h">
+				RelativePath=".\midpoint_noise.h"
+				>
 			</File>
 			<File
-				RelativePath=".\numeric_tools.h">
+				RelativePath=".\numeric_tools.h"
+				>
 			</File>
 			<File
-				RelativePath=".\perlin_noise.h">
+				RelativePath=".\perlin_noise.h"
+				>
 			</File>
 			<File
-				RelativePath=".\quick_sort.h">
+				RelativePath=".\quick_sort.h"
+				>
 			</File>
 			<File
-				RelativePath=".\random_numbers.h">
+				RelativePath=".\random_numbers.h"
+				>
 			</File>
 			<File
-				RelativePath=".\reference_counter.h">
+				RelativePath=".\reference_counter.h"
+				>
 			</File>
 			<File
-				RelativePath=".\resource_pool.h">
+				RelativePath=".\resource_pool.h"
+				>
 			</File>
 			<File
-				RelativePath=".\resource_pool_item.h">
+				RelativePath=".\resource_pool_item.h"
+				>
 			</File>
 			<File
-				RelativePath=".\resource_pool_manager.h">
+				RelativePath=".\resource_pool_manager.h"
+				>
 			</File>
 			<File
-				RelativePath=".\singleton.h">
+				RelativePath=".\singleton.h"
+				>
 			</File>
 			<File
-				RelativePath=".\stack_trace.h">
+				RelativePath=".\stack_trace.h"
+				>
 			</File>
 			<File
-				RelativePath=".\string.h">
+				RelativePath=".\string.h"
+				>
 			</File>
 			<File
-				RelativePath=".\system_info.h">
+				RelativePath=".\system_info.h"
+				>
 			</File>
 			<File
-				RelativePath=".\timer.h">
+				RelativePath=".\timer.h"
+				>
 			</File>
 		</Filter>
 	</Files>

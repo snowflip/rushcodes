@@ -433,25 +433,25 @@ inline cResourcePoolItem* cResourcePool<T>::internalGetResource(cPoolHandle hand
 
 
 template <class T>
-inline cResourcePool<T>::DataType* cResourcePool<T>::createResource(const cString& resourceName)
+inline typename cResourcePool<T>::DataType* cResourcePool<T>::createResource(const cString& resourceName)
 {
 	return (DataType*)cResourcePoolInterface::createResource(resourceName);
 }
 
 template <class T>
-inline cResourcePool<T>::DataType* cResourcePool<T>::loadResource(const cString& filename)
+inline typename cResourcePool<T>::DataType* cResourcePool<T>::loadResource(const cString& filename)
 {
 	return (DataType*)cResourcePoolInterface::loadResource(filename);
 }
 
 template <class T>
-inline cResourcePool<T>::DataType* cResourcePool<T>::getResource(cPoolHandle handle)
+inline typename cResourcePool<T>::DataType* cResourcePool<T>::getResource(cPoolHandle handle)
 {
 	return (DataType*)cResourcePoolInterface::getResource(handle);
 }
 
 template <class T>
-inline cResourcePool<T>::DataType* cResourcePool<T>::findResource(const cString& Name)
+inline typename cResourcePool<T>::DataType* cResourcePool<T>::findResource(const cString& Name)
 {
 	return (DataType*)cResourcePoolInterface::findResource(Name);
 }

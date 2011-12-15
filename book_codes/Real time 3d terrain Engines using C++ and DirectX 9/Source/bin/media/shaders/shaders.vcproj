@@ -1,137 +1,185 @@
-<?xml version="1.0" encoding = "Windows-1252"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="7.00"
+	Version="8.00"
 	Name="shaders"
-	SccProjectName="&quot;$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/bin/media/shaders&quot;, SIBAAAAA"
-	SccLocalPath="..\..\..\..\source\bin\media\shaders"
-	Keyword="MakeFileProj">
+	ProjectGUID="{FC4E98A4-9F54-45DA-9941-9F2E109C26B8}"
+	Keyword="MakeFileProj"
+	>
 	<Platforms>
 		<Platform
-			Name="Win32"/>
+			Name="Win32"
+		/>
 	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Release|Win32"
 			OutputDirectory=".\Release"
 			IntermediateDirectory=".\Release"
 			ConfigurationType="10"
-			UseOfMFC="0">
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC70.vsprops"
+			UseOfMFC="0"
+			>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCMIDLTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCMIDLTool"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Profile|Win32"
 			OutputDirectory=".\shaders___Win32_Profile"
 			IntermediateDirectory=".\shaders___Win32_Profile"
 			ConfigurationType="10"
-			UseOfMFC="0">
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC70.vsprops"
+			UseOfMFC="0"
+			>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCMIDLTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCMIDLTool"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Debug|Win32"
 			OutputDirectory=".\Debug"
 			IntermediateDirectory=".\Debug"
 			ConfigurationType="10"
-			UseOfMFC="0">
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC70.vsprops"
+			UseOfMFC="0"
+			>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCMIDLTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCMIDLTool"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 	</Configurations>
+	<References>
+	</References>
 	<Files>
 		<Filter
 			Name="effect files"
-			Filter="*.h;*.fx">
+			Filter="*.h;*.fx"
+			>
 			<File
-				RelativePath=".\DefaultMesh.fx">
+				RelativePath=".\animated_clouds.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\DefaultSkinnedMesh.fx">
+				RelativePath=".\DefaultMesh.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\animated_clouds.fx">
+				RelativePath=".\DefaultSkinnedMesh.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\grass_patch.fx">
+				RelativePath=".\grass_patch.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\grass_patch_ambient.fx">
+				RelativePath=".\grass_patch_ambient.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\grass_patch_bump.fx">
+				RelativePath=".\grass_patch_bump.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\grass_patch_sunlight.fx">
+				RelativePath=".\grass_patch_sunlight.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\lens_flare.fx">
+				RelativePath=".\lens_flare.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\light_scattering_constants.h">
+				RelativePath=".\light_scattering_constants.h"
+				>
 			</File>
 			<File
-				RelativePath=".\multipass_terrain.fx">
+				RelativePath=".\multipass_terrain.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\ocean_water.fx">
+				RelativePath=".\ocean_water.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\patch_deform.h">
+				RelativePath=".\patch_deform.h"
+				>
 			</File>
 			<File
-				RelativePath=".\simple_skybox.fx">
+				RelativePath=".\simple_skybox.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\simple_skydome.fx">
+				RelativePath=".\simple_skydome.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\simple_terrain.fx">
+				RelativePath=".\simple_terrain.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\simple_terrain_ambient.fx">
+				RelativePath=".\simple_terrain_ambient.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\simple_terrain_bump.fx">
+				RelativePath=".\simple_terrain_bump.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\simple_terrain_sunlight.fx">
+				RelativePath=".\simple_terrain_sunlight.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\single_texture_terrain.fx">
+				RelativePath=".\single_texture_terrain.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\sunlit_object.fx">
+				RelativePath=".\sunlit_object.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\sunlit_skydome.fx">
+				RelativePath=".\sunlit_skydome.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\tree_fan_ambient.fx">
+				RelativePath=".\tree_fan_ambient.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\tree_fan_bump.fx">
+				RelativePath=".\tree_fan_bump.fx"
+				>
 			</File>
 			<File
-				RelativePath=".\tree_fan_sunlight.fx">
+				RelativePath=".\tree_fan_sunlight.fx"
+				>
 			</File>
 		</Filter>
 	</Files>
