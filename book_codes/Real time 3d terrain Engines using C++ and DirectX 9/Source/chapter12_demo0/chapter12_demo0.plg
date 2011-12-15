@@ -1,0 +1,318 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: core - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1AC.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\\" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/core.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\application_timer.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\code_timer.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\data_types.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\debug.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\debug_channel.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\file.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\memory.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\midpoint_noise.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\random_numbers.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\resource_pool_item.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\resource_pool_manager.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\stack_trace.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\string.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\system_info.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\timer.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1AC.tmp" 
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1AD.tmp" with contents
+[
+/nologo /out:"Release\core.lib" 
+".\Release\application_timer.obj"
+".\Release\code_timer.obj"
+".\Release\data_types.obj"
+".\Release\debug.obj"
+".\Release\debug_channel.obj"
+".\Release\file.obj"
+".\Release\memory.obj"
+".\Release\midpoint_noise.obj"
+".\Release\random_numbers.obj"
+".\Release\resource_pool_item.obj"
+".\Release\resource_pool_manager.obj"
+".\Release\stack_trace.obj"
+".\Release\string.obj"
+".\Release\system_info.obj"
+".\Release\timer.obj"
+]
+Creating command line "xilink6.exe -lib @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1AD.tmp"
+<h3>Output Window</h3>
+Compiling...
+application_timer.cpp
+code_timer.cpp
+data_types.cpp
+debug.cpp
+debug_channel.cpp
+file.cpp
+memory.cpp
+midpoint_noise.cpp
+random_numbers.cpp
+resource_pool_item.cpp
+resource_pool_manager.cpp
+stack_trace.cpp
+string.cpp
+system_info.cpp
+timer.cpp
+Creating library...
+xilink6: executing 'lib'
+<h3>
+--------------------Configuration: math - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1AE.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\\" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/math.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\math\math_tools.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1AE.tmp" 
+Creating command line "xilink6.exe -lib /nologo /out:"Release\math.lib"  ".\Release\math_tools.obj" "\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\core\Release\core.lib" "
+<h3>Output Window</h3>
+Compiling...
+math_tools.cpp
+Creating library...
+xilink6: executing 'lib'
+<h3>
+--------------------Configuration: geometry - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1AF.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\\" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/geometry.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\geometry\geometry.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1AF.tmp" 
+Creating command line "xilink6.exe -lib /nologo /out:"Release\geometry.lib"  ".\Release\geometry.obj" "\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\math\Release\math.lib" "
+<h3>Output Window</h3>
+Compiling...
+geometry.cpp
+Creating library...
+xilink6: executing 'lib'
+<h3>
+--------------------Configuration: gaia - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1B0.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\\" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\animation_controller.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\camera.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\chunk_section.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\chunk_system.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\d3dx_frame_manager.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\display_manager.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\effect_file.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\error.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\game_host.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\grass_manager.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\grass_patch.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\image.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\index_buffer.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\lens_flare.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\light_manager.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\light_scattering_data.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\model_resource.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\ocean_manager.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\orientation.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\plant_manager.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\quad_tree.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\quad_tree_node.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\render_method.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\render_queue.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\roam_section.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\roam_system.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\scene_model.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\scene_node.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\scene_object.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\sky_model.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\subnode_group.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\surface_material.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\terrain_section.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\terrain_system.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\terrain_tile_section.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\terrain_tile_system.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\texture.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\vertex_buffer.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\framework\d3dapp.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\framework\d3denumeration.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\framework\d3dfile.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\framework\d3dfont.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\framework\d3dsettings.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\framework\d3dutil.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\framework\dxutil.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1B0.tmp" 
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1B1.tmp" with contents
+[
+/nologo /out:"Release\gaia.lib" 
+".\Release\animation_controller.obj"
+".\Release\camera.obj"
+".\Release\chunk_section.obj"
+".\Release\chunk_system.obj"
+".\Release\d3dx_frame_manager.obj"
+".\Release\display_manager.obj"
+".\Release\effect_file.obj"
+".\Release\error.obj"
+".\Release\game_host.obj"
+".\Release\grass_manager.obj"
+".\Release\grass_patch.obj"
+".\Release\image.obj"
+".\Release\index_buffer.obj"
+".\Release\lens_flare.obj"
+".\Release\light_manager.obj"
+".\Release\light_scattering_data.obj"
+".\Release\model_resource.obj"
+".\Release\ocean_manager.obj"
+".\Release\orientation.obj"
+".\Release\plant_manager.obj"
+".\Release\quad_tree.obj"
+".\Release\quad_tree_node.obj"
+".\Release\render_method.obj"
+".\Release\render_queue.obj"
+".\Release\roam_section.obj"
+".\Release\roam_system.obj"
+".\Release\scene_model.obj"
+".\Release\scene_node.obj"
+".\Release\scene_object.obj"
+".\Release\sky_model.obj"
+".\Release\subnode_group.obj"
+".\Release\surface_material.obj"
+".\Release\terrain_section.obj"
+".\Release\terrain_system.obj"
+".\Release\terrain_tile_section.obj"
+".\Release\terrain_tile_system.obj"
+".\Release\texture.obj"
+".\Release\vertex_buffer.obj"
+".\Release\d3dapp.obj"
+".\Release\d3denumeration.obj"
+".\Release\d3dfile.obj"
+".\Release\d3dfont.obj"
+".\Release\d3dsettings.obj"
+".\Release\d3dutil.obj"
+".\Release\dxutil.obj"
+"\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\geometry\Release\geometry.lib"
+]
+Creating command line "xilink6.exe -lib @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1B1.tmp"
+<h3>Output Window</h3>
+Compiling...
+animation_controller.cpp
+camera.cpp
+chunk_section.cpp
+chunk_system.cpp
+d3dx_frame_manager.cpp
+display_manager.cpp
+effect_file.cpp
+error.cpp
+game_host.cpp
+grass_manager.cpp
+grass_patch.cpp
+image.cpp
+index_buffer.cpp
+lens_flare.cpp
+light_manager.cpp
+light_scattering_data.cpp
+model_resource.cpp
+ocean_manager.cpp
+orientation.cpp
+plant_manager.cpp
+Generating Code...
+Compiling...
+quad_tree.cpp
+quad_tree_node.cpp
+render_method.cpp
+render_queue.cpp
+roam_section.cpp
+roam_system.cpp
+scene_model.cpp
+scene_node.cpp
+scene_object.cpp
+sky_model.cpp
+subnode_group.cpp
+surface_material.cpp
+terrain_section.cpp
+terrain_system.cpp
+terrain_tile_section.cpp
+terrain_tile_system.cpp
+texture.cpp
+vertex_buffer.cpp
+d3dapp.cpp
+d3denumeration.cpp
+Generating Code...
+Compiling...
+d3dfile.cpp
+d3dfont.cpp
+d3dsettings.cpp
+d3dutil.cpp
+dxutil.cpp
+Generating Code...
+Creating library...
+xilink6: executing 'lib'
+<h3>
+--------------------Configuration: chapter10_demo0 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/resource.res" /d "NDEBUG" "C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\chapter10_demo0\resource.rc"" 
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1B2.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\\" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/chapter10_demo0.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\chapter10_demo0\main.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1B2.tmp" 
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1B3.tmp" with contents
+[
+winmm.lib d3d9.lib dxerr9.lib d3dx9.lib largeint.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/chapter10_demo0.pdb" /machine:I386 /out:"../bin/chapter10_demo0.exe" 
+".\Release\main.obj"
+".\Release\resource.res"
+"\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\Release\gaia.lib"
+]
+Creating command line "xilink6.exe @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1B3.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+main.cpp
+Linking...
+xilink6: executing 'C:\PROGRA~1\MIAF9D~1\VC98\bin\link.exe'
+
+
+
+<h3>Results</h3>
+chapter10_demo0.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: chapter10_demo1 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/resource.res" /d "NDEBUG" "C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\chapter10_demo1\resource.rc"" 
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1B5.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\\" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/chapter10_demo1.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\chapter10_demo1\main.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1B5.tmp" 
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1B6.tmp" with contents
+[
+winmm.lib d3d9.lib dxerr9.lib d3dx9.lib largeint.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/chapter10_demo1.pdb" /machine:I386 /out:"../bin/chapter10_demo1.exe" 
+".\Release\main.obj"
+".\Release\resource.res"
+"\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\Release\gaia.lib"
+]
+Creating command line "xilink6.exe @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1B6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+main.cpp
+Linking...
+xilink6: executing 'C:\PROGRA~1\MIAF9D~1\VC98\bin\link.exe'
+xilink6.exe terminated at user request.
+
+</pre>
+</body>
+</html>

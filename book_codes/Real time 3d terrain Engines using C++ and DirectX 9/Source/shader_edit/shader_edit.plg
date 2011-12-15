@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: shader_edit - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1C.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\\" /D "_WINDOWS" /D "WIN32" /D "_DEBUG" /D "_CODE_TIMING" /D "_DEBUG_OUTPUT" /Fp"Debug/shader_edit.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\shader_edit\AnimationBrowser.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\shader_edit\ChildView.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\shader_edit\MainFrm.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\shader_edit\ModelBrowserDlg.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\shader_edit\shader_edit.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\shader_edit\StdAfx.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1C.tmp" 
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1D.tmp" with contents
+[
+winmm.lib d3d9.lib d3dx9dt.lib dxerr9.lib largeint.lib SHLWAPI.LIB /nologo /subsystem:windows /incremental:yes /pdb:"Debug/shader_edit_debug.pdb" /debug /machine:I386 /nodefaultlib:"libcd" /out:"..\bin\shader_edit_debug.exe" /pdbtype:sept 
+".\Debug\AnimationBrowser.obj"
+".\Debug\ChildView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\ModelBrowserDlg.obj"
+".\Debug\shader_edit.obj"
+".\Debug\StdAfx.obj"
+".\Debug\shader_edit.res"
+"\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\gaia\Debug\gaia.lib"
+]
+Creating command line "xilink6.exe @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1D.tmp"
+<h3>Output Window</h3>
+Compiling...
+AnimationBrowser.cpp
+ChildView.cpp
+MainFrm.cpp
+ModelBrowserDlg.cpp
+shader_edit.cpp
+StdAfx.cpp
+Linking...
+xilink6: executing 'C:\PROGRA~1\MIAF9D~1\VC98\bin\link.exe'
+LINK : LNK6006: program database C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\source\shader_edit\Debug\shader_edit_debug.pdb missing; performing full link
+
+
+
+<h3>Results</h3>
+shader_edit_debug.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

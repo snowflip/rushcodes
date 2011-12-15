@@ -1,0 +1,29 @@
+These input keys are used in the demo programs
+
+W-A-S-D 	:camera movement
+R-F	 	:camera up,down
+Arrow Keys	:camera rotation
+
+Terrain Detail
+Numpad +	:increase ratio limit
+Numpad -	:decrease ratio limit
+Numpad *	:increase error scale
+Numpad /	:decrease error scale
+
+Sunlight Paramteters
+PG_UP		:Move Sun Pos
+PG_DN		:Move Sun Neg
+
+N/M		: Adjust Mie Scattering
+V/B		: Adjust Rayleigh Scattering
+O/P		: Adjust Henyey G
+K/L		: Adjust Inscattering Scale
+H/J		: Adjust extinction Scale
+
+
+TROUBLESHOOTING
+_______________
+
+If the programs fail to run after being compiled,
+make sure you have the working directory set to
+the \bin folder inside the source directory.

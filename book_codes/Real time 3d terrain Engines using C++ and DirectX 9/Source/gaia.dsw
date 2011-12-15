@@ -1,0 +1,357 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "chapter10_demo0"=".\chapter10_demo0\chapter10_demo0.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/chapter10_demo0", OJBAAAAA
+    .\chapter10_demo0
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gaia
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chapter10_demo1"=".\chapter10_demo1\chapter10_demo1.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/chapter10_demo1", DKBAAAAA
+    .\chapter10_demo1
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gaia
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chapter10_demo2"=".\chapter10_demo2\chapter10_demo2.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/chapter10_demo2", TKBAAAAA
+    .\chapter10_demo2
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gaia
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chapter11_demo0"=".\chapter11_demo0\chapter11_demo0.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/chapter11_demo0", RQBAAAAA
+    .\chapter11_demo0
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gaia
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chapter12_demo0"=".\chapter12_demo0\chapter12_demo0.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/chapter12_demo0", DRBAAAAA
+    .\chapter12_demo0
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gaia
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chapter13_demo0"=".\chapter13_demo0\chapter13_demo0.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/chapter13_demo0", ETBAAAAA
+    .\chapter13_demo0
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gaia
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chapter6_demo0"=".\chapter6_demo0\chapter6_demo0.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/chapter6_demo0", APBAAAAA
+    .\chapter6_demo0
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gaia
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chapter7_demo0"=".\chapter7_demo0\chapter7_demo0.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/chapter7_demo0", HPBAAAAA
+    .\chapter7_demo0
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gaia
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chapter8_demo0"=".\chapter8_demo0\chapter8_demo0.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/chapter8_demo0", WPBAAAAA
+    .\chapter8_demo0
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gaia
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chapter8_demo1"=".\chapter8_demo1\chapter8_demo1.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/chapter8_demo1", LQBAAAAA
+    .\chapter8_demo1
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gaia
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chapter9_demo0"=".\chapter9_demo0\chapter9_demo0.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/chapter9_demo0", IIBAAAAA
+    .\chapter9_demo0
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gaia
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chapter9_demo1"=".\chapter9_demo1\chapter9_demo1.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/chapter9_demo1", DJBAAAAA
+    .\chapter9_demo1
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gaia
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "core"=".\core\core.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/3D Terrain Engines/source/core", QAAAAAAA
+    ..\..\3d terrain engines from the ground up\source\core
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "gaia"=".\gaia\gaia.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/3D Terrain Engines/source/gaia", BCAAAAAA
+    ..\..\3d terrain engines from the ground up\source\gaia
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name geometry
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "geometry"=".\geometry\geometry.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/3D Terrain Engines/source/geometry", ADAAAAAA
+    ..\..\3d terrain engines from the ground up\source\geometry
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name math
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "math"=".\math\math.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/3D Terrain Engines/source/math", KDAAAAAA
+    ..\..\3d terrain engines from the ground up\source\math
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name core
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "shader_edit"=".\shader_edit\shader_edit.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/shader_edit", AWAAAAAA
+    .\shader_edit
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gaia
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "shaders"=".\BIN\MEDIA\shaders\shaders.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source/bin/media/shaders", SIBAAAAA
+    .\bin\media\shaders
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Real-Time 3D Terrain Engines Using C++ and Direct X/source", RQAAAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

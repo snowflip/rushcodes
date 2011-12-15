@@ -1,0 +1,161 @@
+# Microsoft Developer Studio Project File - Name="geometry" - Package Owner=<4>
+# Microsoft Developer Studio Generated Build File, Format Version 60000
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (x86) Static Library" 0x0104
+
+CFG=geometry - Win32 Profile
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "geometry.mak".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "geometry.mak" CFG="geometry - Win32 Profile"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "geometry - Win32 Release" (based on "Win32 (x86) Static Library")
+!MESSAGE "geometry - Win32 Debug" (based on "Win32 (x86) Static Library")
+!MESSAGE "geometry - Win32 Profile" (based on "Win32 (x86) Static Library")
+!MESSAGE 
+
+# Begin Project
+# PROP AllowPerConfigDependencies 0
+# PROP Scc_ProjName ""$/3D Terrain Engines/source/geometry", ADAAAAAA"
+# PROP Scc_LocalPath "..\..\..\3d terrain engines from the ground up\source\geometry"
+CPP=xicl6.exe
+RSC=rc.exe
+
+!IF  "$(CFG)" == "geometry - Win32 Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "Release"
+# PROP BASE Intermediate_Dir "Release"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "Release"
+# PROP Intermediate_Dir "Release"
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /YX /FD /c
+# ADD CPP /nologo /W3 /GX /O2 /I "..\\" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /YX /FD /c
+# ADD BASE RSC /l 0x409 /d "NDEBUG"
+# ADD RSC /l 0x409 /d "NDEBUG"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LIB32=xilink6.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+
+!ELSEIF  "$(CFG)" == "geometry - Win32 Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "Debug"
+# PROP BASE Intermediate_Dir "Debug"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "Debug"
+# PROP Intermediate_Dir "Debug"
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /YX /FD /GZ /c
+# ADD CPP /nologo /W3 /Gm /GX /ZI /Od /I "..\\" /D "_MBCS" /D "_LIB" /D "WIN32" /D "_DEBUG" /D "_CODE_TIMING" /D "_DEBUG_OUTPUT" /YX /FD /GZ /c
+# ADD BASE RSC /l 0x409 /d "_DEBUG"
+# ADD RSC /l 0x409 /d "_DEBUG"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LIB32=xilink6.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+
+!ELSEIF  "$(CFG)" == "geometry - Win32 Profile"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "geometry___Win32_Profile"
+# PROP BASE Intermediate_Dir "geometry___Win32_Profile"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "geometry___Win32_Profile"
+# PROP Intermediate_Dir "geometry___Win32_Profile"
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /W3 /Gm /GX /ZI /Od /I "..\\" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /YX /FD /GZ /c
+# ADD CPP /nologo /W3 /Gm /GX /Zi /Od /Ob2 /I "..\\" /D "_MBCS" /D "_LIB" /D "WIN32" /D "_DEBUG" /D "_CODE_TIMING" /YX /FD /GZ /c
+# ADD BASE RSC /l 0x409 /d "_DEBUG"
+# ADD RSC /l 0x409 /d "_DEBUG"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LIB32=xilink6.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+
+!ENDIF 
+
+# Begin Target
+
+# Name "geometry - Win32 Release"
+# Name "geometry - Win32 Debug"
+# Name "geometry - Win32 Profile"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+# Begin Source File
+
+SOURCE=.\geometry.cpp
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=.\circle.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\frustum.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\geometry.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\intersection_tests.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\lines.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\plane2d.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\plane3d.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\rect2d.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\rect3d.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\sphere.h
+# End Source File
+# End Group
+# End Target
+# End Project

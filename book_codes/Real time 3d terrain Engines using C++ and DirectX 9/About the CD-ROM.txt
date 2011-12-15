@@ -1,0 +1,33 @@
+About the CD-ROM
+The CD-Rom included with Real-Time 3D Terrain Engines Using C++ and DirectX 9 includes all of files necessary to compile the engine discussed in the book.  It also includes the source code and executables for the demonstrations mentioned in each chapter. All model, texture and effect files are also provided. 
+
+CD FOLDERS:
+
+SOURCE: All of the source code is contained within this folder. Subfolders are provided for each section of the engine, as well as each individual demo program. A bin folder contains pre-compiled executables for each demo, along with all the media required to run them.
+
+DIRECTX: The entire DirectX 9.0 SDK is included on this CD-ROM. To install the SDK, follow the instructions provided in this folder.
+
+TOOLS: We have included a set of tools to aid in building your own terrain. Check the home pages listed for each tool to download more recent versions when available.
+
+The first is a version of T2 by Keith Ditchburn.  This is a useful texture generation program which can construct texture maps for any terrain given a set of parameters. More information can be found at http://www.petra.demon.co.uk/Games/texgen.html
+
+The second application is 3DEM from Visualization Software, LLC.  This program is capable of converting real-world terrain information from a variety of sources into height maps for use in a terrain engine. More information and support for this product can be obtained from www.visualizationsoftware.com. This web page also lists locations to download free terrain data for use with the program.
+
+Special Thanks to Christopher Barrett for his help creating models and textures for the book.
+
+System Requirements: 
+Windows 2000/XP
+Pentium III Processor, 1Ghz+
+DirectX 9-compatable video card providing hardware-accelerated, programmable vertex and pixel shaders. (NVIDIA GeForce 3 or higher, ATI Radeon 8500 and beyond)
+CD/Hard Drive
+128 mb RAM (256 mb recommended)
+500 mb of free disk space is required to install the DirectX SDK, the sample source code, and the tools provided.
+
+Software Requirements: 
+Microsoft Visual Studio.NET or Microsoft Visual Studio 6.0 are required to edit and compile the source code provided. Other editors and compilers may be compatible, but have not been tested. 
+
+Installation: 
+To use this CD, you just need to make sure that your system matches at least the minimum system requirements.  Each of the tools provided has its own installation instructions and you should contact the developer directly if you have any problems with installation.  The source code folder can be copied directly to your hard drive for editing with a program of your choice.
+
+Updates and Errata:
+Be sure to visit the web pages for Charles River Media (www.charlesriver.com) and the author (www.mightystudios.com) for any updates or errata associated with this book and the included source code. 

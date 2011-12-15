@@ -1,0 +1,104 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gaia - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1CC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\\" /D "_MBCS" /D "_LIB" /D "WIN32" /D "_DEBUG" /D "_CODE_TIMING" /D "_DEBUG_OUTPUT" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\CD-ROM SOURCE\gaia\image.cpp"
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\CD-ROM SOURCE\gaia\texture.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1CC.tmp" 
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1CD.tmp" with contents
+[
+/nologo /out:"Debug\gaia.lib" 
+".\Debug\animation_controller.obj"
+".\Debug\camera.obj"
+".\Debug\chunk_section.obj"
+".\Debug\chunk_system.obj"
+".\Debug\d3dx_frame_manager.obj"
+".\Debug\display_manager.obj"
+".\Debug\effect_file.obj"
+".\Debug\error.obj"
+".\Debug\game_host.obj"
+".\Debug\grass_manager.obj"
+".\Debug\grass_patch.obj"
+".\Debug\image.obj"
+".\Debug\index_buffer.obj"
+".\Debug\lens_flare.obj"
+".\Debug\light_manager.obj"
+".\Debug\light_scattering_data.obj"
+".\Debug\model_resource.obj"
+".\Debug\ocean_manager.obj"
+".\Debug\orientation.obj"
+".\Debug\plant_manager.obj"
+".\Debug\quad_tree.obj"
+".\Debug\quad_tree_node.obj"
+".\Debug\render_method.obj"
+".\Debug\render_queue.obj"
+".\Debug\roam_section.obj"
+".\Debug\roam_system.obj"
+".\Debug\scene_model.obj"
+".\Debug\scene_node.obj"
+".\Debug\scene_object.obj"
+".\Debug\sky_model.obj"
+".\Debug\subnode_group.obj"
+".\Debug\surface_material.obj"
+".\Debug\terrain_section.obj"
+".\Debug\terrain_system.obj"
+".\Debug\terrain_tile_section.obj"
+".\Debug\terrain_tile_system.obj"
+".\Debug\texture.obj"
+".\Debug\vertex_buffer.obj"
+".\Debug\d3dapp.obj"
+".\Debug\d3denumeration.obj"
+".\Debug\d3dfile.obj"
+".\Debug\d3dfont.obj"
+".\Debug\d3dsettings.obj"
+".\Debug\d3dutil.obj"
+".\Debug\dxutil.obj"
+"\development\Real-Time 3D Terrain Engines Using C++ and Direct X\CD-ROM SOURCE\geometry\Debug\geometry.lib"
+]
+Creating command line "xilink6.exe -lib @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1CD.tmp"
+<h3>Output Window</h3>
+Compiling...
+image.cpp
+texture.cpp
+Generating Code...
+Creating library...
+xilink6: executing 'lib'
+<h3>
+--------------------Configuration: chapter13_demo0 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1CE.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\\" /D "_WINDOWS" /D "_MBCS" /D "WIN32" /D "_DEBUG" /D "_CODE_TIMING" /D "_DEBUG_OUTPUT" /Fp"Debug/chapter13_demo0.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\development\Real-Time 3D Terrain Engines Using C++ and Direct X\CD-ROM SOURCE\chapter13_demo0\main.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1CE.tmp" 
+Creating temporary file "C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1CF.tmp" with contents
+[
+d3dx9dt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib version.lib imagehlp.lib winmm.lib d3d9.lib dxerr9.lib largeint.lib /nologo /subsystem:windows /profile /debug /machine:I386 /out:"../bin/chapter13_demo0_debug.exe" 
+".\Debug\main.obj"
+".\Debug\resource.res"
+"\development\Real-Time 3D Terrain Engines Using C++ and Direct X\CD-ROM SOURCE\gaia\Debug\gaia.lib"
+]
+Creating command line "xilink6.exe @C:\DOCUME~1\greg\LOCALS~1\Temp\RSP1CF.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+xilink6: executing 'C:\PROGRA~1\MIAF9D~1\VC98\bin\link.exe'
+
+
+
+<h3>Results</h3>
+chapter13_demo0_debug.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
