@@ -6,7 +6,7 @@
 #include "AnimationBrowser.h"
 #include "MainFrm.h"
 #include "gaia\gaia.h"
-#include <iostream.h>
+#include <iostream>
 #include "Shlwapi.h"
 #include "gaia\d3dx_frame_manager.h"
 

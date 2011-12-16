@@ -66,9 +66,7 @@ inline void QuickSort(T* array, uint32 members, const FUNC& pred)
 			 //compare the element at B to the one before it in the set
              //if they are out of order continue this loop, moving
              //elements "back" to make room for B to be inserted.
-            for( j = i; 
-				(j >= h) && pred(B,array[j-h]); 
-				j -= h) 
+            for( j = i; (j >= h) && pred(B,array[j-h]); j -= h)		
 			{
                 array[j] = array[j-h];
             }

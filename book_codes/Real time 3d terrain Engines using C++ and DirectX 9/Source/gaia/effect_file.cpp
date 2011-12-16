@@ -277,7 +277,7 @@ void cEffectFile::parseParameters()
 			cString name(ParamDesc.Name);
 			
 			if (ParamDesc.Type == D3DXPT_TEXTURE
-				&& name == "shadow")
+				&& name == cString("shadow"))
 			{
 				m_shadowTextureHandle = hParam;
 			}

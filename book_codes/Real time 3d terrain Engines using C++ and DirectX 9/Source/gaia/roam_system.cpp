@@ -19,6 +19,7 @@
 
 #include "roam_system.h"
 #include "game_host.h"
+#include <algorithm>
 
 using namespace gaia;
 
@@ -165,9 +166,10 @@ void cRoamTerrain::processTessellationQueue()
 	// sort the tessellation list
 	// see "core\quick_sort.h"
 	// for details
-	QuickSort(m_tessellationQueue, 
-		m_tessellationQueueCount, 
-		sort_less());
+	//QuickSort(m_tessellationQueue,				/// 2011/12/17:0:51	Mod by Rush
+	//	m_tessellationQueueCount, 
+	//	sort_less());
+
 
 	// tessellate each section
 	uint32 i;

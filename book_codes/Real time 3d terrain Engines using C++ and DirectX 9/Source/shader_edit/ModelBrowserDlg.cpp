@@ -5,7 +5,7 @@
 #include "shader_edit.h"
 #include "ModelBrowserDlg.h"
 #include "MainFrm.h"
-#include <iostream.h>
+#include <iostream>
 #include "Shlwapi.h"
 
 #ifdef _DEBUG

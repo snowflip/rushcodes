@@ -49,9 +49,7 @@ void cRenderQueue::unlockRenderEntry(cRenderEntry* entry)
 typedef cRenderEntry* LPRenderEntry;
 struct sort_less
 {
-	bool operator()(
-		const LPRenderEntry& a, 
-		const LPRenderEntry& b)const
+	bool operator()(const LPRenderEntry& a, const LPRenderEntry& b)const
 	{
 		if (a->sortValueA 
 			> b->sortValueA)

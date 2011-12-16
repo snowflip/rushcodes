@@ -22,7 +22,7 @@
 #include "gaia\surface_material.h"
 #include "gaia\render_method.h"
 #include <d3dx9.h>
-
+#include <dxfile.h>
 
 //	Name Space declaration
 namespace gaia

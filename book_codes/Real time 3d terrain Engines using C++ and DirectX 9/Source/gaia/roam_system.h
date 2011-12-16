@@ -68,7 +68,7 @@ private:
 	cRoamTerrainSection* m_pRoamSectionArray;
 	cTriTreeNode* m_pTriangleNodePool;
 	uint32 m_nextTriNode;
-	cRoamTerrainSection** m_tessellationQueue;
+	cRoamTerrainSection**m_tessellationQueue;
 	uint32 m_tessellationQueueCount;
 
 	// Private Functions...

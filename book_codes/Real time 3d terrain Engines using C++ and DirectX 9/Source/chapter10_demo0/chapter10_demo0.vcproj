@@ -59,6 +59,7 @@
 				SuppressStartupBanner="true"
 				DebugInformationFormat="4"
 				CompileAs="0"
+				DisableSpecificWarnings="4996"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -74,7 +75,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions="/MACHINE:I386"
-				AdditionalDependencies="d3dx9dt.lib odbc32.lib odbccp32.lib winmm.lib d3d9.lib dxerr9.lib largeint.lib version.lib imagehlp.lib"
+				AdditionalDependencies="d3dx9dt.lib odbc32.lib odbccp32.lib winmm.lib d3d9.lib dxerr9.lib version.lib imagehlp.lib"
 				OutputFile="../bin/chapter10_demo0_debug.exe"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
