@@ -1,3 +1,7 @@
+// 使用后台线程来处理打印
+
+// 该程序将一个dialog嵌在一个windowClass里，其实没有必要吧...不过也是种方法
+
 /*
  * BackPrnt.c
  *
@@ -83,13 +87,13 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
     MSG     msg;
     HWND    hWnd;
     WNDCLASS wc;
-	int index;
+	int		index;
 
     hInst = hInstance;
-    if (!hPrevInstance)
+    if (!hPrevInstance)				// 如果存在prevInstance，说明该windowClass已被创建了，则不需要在创建了
     {
         memset(&wc, 0, sizeof(wc));
-        wc.lpfnWndProc  = MainWndProc;
+        wc.lpfnWndProc  = MainWndProc;				// 该window class的窗口信息处理函数
         wc.hInstance    = hInstance;
         wc.hIcon        = LoadIcon (hInstance, "GenIco");
         wc.hCursor      = LoadCursor(NULL,IDC_ARROW);
@@ -102,21 +106,19 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 
 
     hWnd = CreateWindow(
-        "PrintDlgClass",
-        "Background Printing",
-        WS_OVERLAPPED|WS_CAPTION|WS_MINIMIZEBOX|WS_SYSMENU,
-        CW_USEDEFAULT, // At this point we do not want to
-        0,             //  show the window until we know
-        0,             //  how big the Dialog Box is so
-        0,             //  that we can fit the main window
-        NULL,          //  around it.
-        NULL,
-        hInstance,
-        NULL);
+						"PrintDlgClass",
+						"Background Printing",
+						WS_OVERLAPPED|WS_CAPTION|WS_MINIMIZEBOX|WS_SYSMENU,
+						CW_USEDEFAULT, // At this point we do not want to
+						0,             //  show the window until we know
+						0,             //  how big the Dialog Box is so
+						0,             //  that we can fit the main window
+						NULL,          //  around it.
+						NULL,
+						hInstance,
+						NULL);
 
-    hDlgMain = CreateDialog(hInst,
-                    MAKEINTRESOURCE(IDD_PRINT),
-                    hWnd, PrintDlgProc);
+    hDlgMain = CreateDialog(hInst, MAKEINTRESOURCE(IDD_PRINT), hWnd, PrintDlgProc);
 
     ShowWindow(hWnd, nCmdShow);
     ShowWindow(hDlgMain, SW_SHOW);
