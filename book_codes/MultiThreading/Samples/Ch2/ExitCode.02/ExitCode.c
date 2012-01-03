@@ -1,3 +1,4 @@
+// 通过线程返回值来判定线程是否结束了
 /*
  * ExitCode.c
  *
@@ -22,7 +23,7 @@ int main()
     HANDLE hThrd2;
     DWORD exitCode1 = 0;
     DWORD exitCode2 = 0;
-    DWORD threadId;
+    DWORD threadId;					// not used in this program
     
     hThrd1 = CreateThread(NULL,
         0,
@@ -30,6 +31,7 @@ int main()
         (LPVOID)1,
         0,
         &threadId );
+
     if (hThrd1)
         printf("Thread 1 launched\n");
 
@@ -55,7 +57,7 @@ int main()
 
         GetExitCodeThread(hThrd1, &exitCode1);
         GetExitCodeThread(hThrd2, &exitCode2);
-        if ( exitCode1 == STILL_ACTIVE )
+        if ( exitCode1 == STILL_ACTIVE )			// 检查线程返回值来查看线程是否结束了
             puts("Thread 1 is still running!");
         if ( exitCode2 == STILL_ACTIVE )
             puts("Thread 2 is still running!");
@@ -64,6 +66,7 @@ int main()
             break;
     }
 
+	/// 放弃对两个线程的控制
     CloseHandle(hThrd1);
     CloseHandle(hThrd2);
 
@@ -80,6 +83,6 @@ int main()
  */
 DWORD WINAPI ThreadFunc(LPVOID n)
 {
-    Sleep((DWORD)n*1000*2);
+    Sleep((DWORD)n*1000*5);
     return (DWORD)n * 10;
 }
