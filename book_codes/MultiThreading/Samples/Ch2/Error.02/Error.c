@@ -1,3 +1,5 @@
+// 该程序演示了如何使用MTVERIFY
+// 以及线程的引用计数问题
 /*
  * Error.c
  *
@@ -31,14 +33,15 @@ int main()
     if (hThrd)
         printf("Thread launched\n");
 
-    MTVERIFY( CloseHandle(hThrd) );
+    MTVERIFY( CloseHandle(hThrd) );					// 这里程序已经宣布放弃对thread的引用了，handle就失效了
 
     for(;;)
     {
         BOOL rc;
-        MTVERIFY( rc = GetExitCodeThread(hThrd, &exitCode) );
-	if (rc || exitCode != STILL_ACTIVE )
-            break;
+        MTVERIFY( rc = GetExitCodeThread(hThrd, &exitCode) );	// 失效了。。。。
+
+		if (rc || exitCode != STILL_ACTIVE )
+				break;
     }
 
     printf("Thread returned %d\n", exitCode);
