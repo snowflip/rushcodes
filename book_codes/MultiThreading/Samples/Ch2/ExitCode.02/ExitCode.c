@@ -1,4 +1,9 @@
 // 通过线程返回值来判定线程是否结束了
+//	GetExitCodeThread(
+//			__in  HANDLE hThread,
+//			__out LPDWORD lpExitCode
+//	);
+
 /*
  * ExitCode.c
  *

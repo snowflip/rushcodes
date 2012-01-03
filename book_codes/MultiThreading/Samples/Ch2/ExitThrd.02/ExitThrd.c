@@ -1,3 +1,8 @@
+// 结束一个线程
+// ExitThread(
+//		   __in DWORD dwExitCode
+//		   );
+
 /*
  * ExitThrd.c
  *
@@ -54,13 +59,15 @@ DWORD WINAPI ThreadFunc(LPVOID n)
 {
     printf("Thread running\n");
     AnotherFunc();
-    return 0;
+    return 0;		// 永远执行不到这里，所以返回值不可能是0
 }
 
 void AnotherFunc()
 {
     printf("About to exit thread\n");
-    ExitThread(4);
+    
+	ExitThread(4);					// 如此返回值就是4
+
     // It is impossible to get here, this line
     // will never be printed
     printf("This will never print\n");
