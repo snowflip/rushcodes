@@ -22,25 +22,24 @@
 
 __inline void PrintError(LPSTR linedesc, LPSTR filename, int lineno, DWORD errnum)
 {
-	LPSTR lpBuffer;
-	char errbuf[256];
+	LPSTR	lpBuffer;		// 存放错误消息的buffer
+	char	errbuf[256];
 #ifdef _WINDOWS
-	char modulename[MAX_PATH];
+	char	modulename[MAX_PATH];
 #else // _WINDOWS
-	DWORD numread;
+	DWORD	numread;
 #endif // _WINDOWS
 
-	FormatMessage( FORMAT_MESSAGE_ALLOCATE_BUFFER
-			| FORMAT_MESSAGE_FROM_SYSTEM,
-		NULL,
-		errnum,
-		LANG_NEUTRAL,
-		(LPTSTR)&lpBuffer,
-		0,
-		NULL );
+	FormatMessage( FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM,
+					NULL,
+					errnum,
+					LANG_NEUTRAL,
+					(LPTSTR)&lpBuffer,
+					0,
+					NULL );
 
-	wsprintf(errbuf, "\nThe following call failed at line %d in %s:\n\n"
-               "    %s\n\nReason: %s\n", lineno, filename, linedesc, lpBuffer);
+	wsprintf(errbuf, "\nThe following call failed at line %d in %s:\n\n    %s\n\nReason: %s\n", lineno, filename, linedesc, lpBuffer);
+
 #ifndef _WINDOWS
 	WriteFile(GetStdHandle(STD_ERROR_HANDLE), errbuf, strlen(errbuf), &numread, FALSE );
 	Sleep(3000);
@@ -48,5 +47,6 @@ __inline void PrintError(LPSTR linedesc, LPSTR filename, int lineno, DWORD errnu
 	GetModuleFileName(NULL, modulename, MAX_PATH);
 	MessageBox(NULL, errbuf, modulename, MB_ICONWARNING|MB_OK|MB_TASKMODAL|MB_SETFOREGROUND);
 #endif
+
 	exit(EXIT_FAILURE);
 }
