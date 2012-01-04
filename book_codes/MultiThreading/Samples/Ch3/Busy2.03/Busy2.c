@@ -1,3 +1,4 @@
+// 该程序没有新花样，基本上就是一直运行，配合演示操作“性能监视器”
 /*
  * Busy2.c
  *
@@ -75,7 +76,7 @@ DWORD WINAPI ThreadFunc(LPVOID n)
     /* Seed the random-number generator */
     srand( (unsigned)time( NULL ) );
 
-    for (i=0; i<100000000; i++)
+    for (i=0; i<10000000000; i++)
     {
         double x = (double)(rand())/RAND_MAX;
         double y = (double)(rand())/RAND_MAX;

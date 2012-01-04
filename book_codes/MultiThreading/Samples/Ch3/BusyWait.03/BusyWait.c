@@ -1,3 +1,15 @@
+//  该事例在真正多核的机器上也许是无法说明的
+
+// 在我的i7-950的机子上的结果，显然和作者的预期有背
+// 但是多次测试结果是有异的，有时和作者的预期相同，所以，多线程的执行顺序是完全无法估计的
+//Timing normal function call...
+//PI = 3.141
+//Function call took: 0.062 seconds
+//
+//Timing thread + busy loop...
+//PI = 3.141
+//Thread + busy loop took: 0.047 seconds
+
 /*
  * BusyWait.c
  *
@@ -35,8 +47,7 @@ int main()
     begin = GetTickCount();
     ThreadFunc(0);
     elapsed = GetTickCount()-begin;
-    printf("Function call took: %d.%.03d seconds\n\n",
-                elapsed/1000, elapsed%1000);
+    printf("Function call took: %d.%.03d seconds\n\n", elapsed/1000, elapsed%1000);
     
     puts("Timing thread + busy loop...");
     begin = GetTickCount();
@@ -48,6 +59,7 @@ int main()
         0,
         &threadId )
     );
+
     /* This busy loop chews up lots of CPU time */
     for (;;)
     {

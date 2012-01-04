@@ -1,3 +1,5 @@
+// 对TaskQueS的改进版。使用WaitForMultipleObjects()
+
 /*
  * TaskQueM.c
  *
@@ -40,10 +42,10 @@ int main()
         if (i > THREAD_POOL_SIZE)
         {
             /* Wait for one thread to terminate */
-            rc = WaitForMultipleObjects(
+            rc = WaitForMultipleObjects(				// 进入有效的等待，主线程不再busyWait
                 THREAD_POOL_SIZE,
                 hThrds,
-                FALSE,
+                FALSE,									// 只要其中有一个线程被激发，则等待成功
                 INFINITE );
             slot = rc - WAIT_OBJECT_0;
             MTVERIFY( slot >= 0 

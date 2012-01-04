@@ -1,3 +1,5 @@
+// 该程序的演示目的在于表示有些时候WaitForSingleObject不够用，此时应该引入WaitForMultipleObjects()
+
 /*
  * TaskQueS.c
  *
