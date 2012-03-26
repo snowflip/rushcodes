@@ -1,0 +1,29 @@
+配置插件开发环境（3ds max9 sdk+vs2008）
+
+以3ds max 9为例，安装时确保同时安装了3ds max sdk。
+
+采用Vs2008为例进行说明，按照max安装目录Autodesk\3ds Max 9 SDK\maxsdk\howto\3dsmaxPluginWizard下的readme.txt中的说明步骤：
+
+1、找到安装目录的3dsmaxPluginWizard文件夹(我的安装目录是C:\Program Files\Autodesk\3ds Max 9 SDK
+
+\maxsdk\howto\3dsmaxPluginWizard
+打开此目录下的MaxPluginWizard.vsz 文件，编辑ABSOLUTE  PATH参数为：
+
+Param="ABSOLUTE_PATH=C:\Program Files\Autodesk\3ds Max 9\SDK\maxsdk\howto\3dsmaxPluginWizard"
+
+2、在根据教程复制3dsmaxPluginWizard.ico、3dsmaxPluginWizard.vsdir、3dsmaxPluginWizard.vsz到VS 2008安装目录的VCProjects下面
+
+3、将max安装目录Autodesk\3ds Max 9 SDK\maxsdk\howto\3dsmaxPluginWizard下3dsmaxPluginWizard.vcproj文件及Autodesk \3ds Max 9 SDK\maxsdk\howto\3dsmaxPluginWizard\Templates\1033下root.vcproj文件里的 Version="8.00"改为Version="9.00"；
+
+4、将max安装目录Autodesk\3ds Max 9 SDK\maxsdk\howto\3dsmaxPluginWizard下3dsmaxPluginWizard.vsz文件中 Wizard=VsWizard.VsWizardEngine.8.0改为Wizard=VsWizard.VsWizardEngine.9.0
+
+5、编译的时候可能会出现如下错误：
+1>cl : Command line warning D9035 : option 'Wp64' has been deprecated and will be removed in a future release
+1>cl : Command line error D8022 : cannot open 'D:\Program'
+修改方法：Properties->C/C++->Command Line->Addition Options去掉：/LD @D:\Program Files\Autodesk\3ds Max 2009 SDK\maxsdk\ProjectSettings\AdditionalCompilerOptions.txt 
+重新编译即可完成。
+
+
+优化方案：
+上面的方法是完全可行的，但是直接原地修改的话，就没法保证05和08一起使用了，所以可以拷贝一份3dsmaxPluginWizard，将其改为3dsmaxPluginWizard_vc9，在3dsmaxPluginWizard.vsz重新指定目录就可以了。
+另外上述第四步不需要，只会有兼容性问题（wizard显示有异常）。

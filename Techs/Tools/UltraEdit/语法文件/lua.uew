@@ -1,0 +1,100 @@
+/L12°ÂLua°± Block Comment On = --[[ Block Comment Off = --]] Block Comment On Alt = -- Escape Char = \ String Chars = °∞°Æ File Extensions = LUA
+/Colors = 0,37632,8421376,12845252,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z]*)"
+/Open Fold Strings = "function" "if" "whild" "do" "for"
+/Close Fold Strings = "end"
+/C1 "key words" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+and
+do
+else 
+elseif 
+end
+false
+for
+function
+if in
+local
+nil not
+or
+repeat return
+self
+then
+true
+until
+while
+/C2
+abs acos appendto ascii asin assert atan atan2
+call ceil clock collectgarbage copytagmethods cos
+date deg dofile dostring
+error execute exit
+floor foreach foreachvar format frexp
+getbinmethod getenv getglobal gettagmethod gsub
+ldexp log log10
+max min mod
+newtag next nextvar
+os
+pairs print
+print
+rad random randomseed rawgetglobal rawgettable rawsetglobal rawsettable read
+readfrom remove rename
+seterrormethod setglobal setlocale settag settagmethod sin sqrt strbyte
+strchar strfind strlen strlower strrep strsub strupper
+tag tan tmpname tonumber tostring type
+write writeto
+/C3 Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+$debug
+$else
+$end
+$endinput
+$if
+$ifnot
+$nodebug
+/C4 Colors = 420816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+PI
+__index __newindex
+_INPUT _OUTPUT _STDERR _STDIN _STDOUT
+/C5 Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
++
+-
+*
+// /
+^
+<
+>
+=
+~
+%
+.
+:
+/C6
+;
+,
+(
+)
+{
+}
+[
+]
+/C7
+cgi cgilua cgilua_url char2hexa chdir
+dbluaerrorfb dblua_escape decode default_script
+encodecgi encodetable escape
+filetype
+getvalue
+hexa hexa2char html_mask
+includehtml insertfield
+lua_mask
+maketable map mkurl
+nopipe
+preprocess
+redirect relativeurl relative_url
+saveluavar savestate script_path script_pdir script_vdir stateerrormethod
+statefile stdin strsplit
+unescape
+/C8
+DBClose DBExec DBOpen DBRow
+
