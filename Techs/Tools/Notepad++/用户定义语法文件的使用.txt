@@ -1,0 +1,6 @@
+修改userDefineLang.xml
+
+位置：
+%appdata%\Notepad++\userDefineLang.xml
+
+添加语法信息到该文件，重启np就可以了。
