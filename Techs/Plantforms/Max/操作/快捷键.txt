@@ -1,0 +1,44 @@
+	F1：	
+	F2：	Shade Selected Faces(着色选择面开关)
+	F3：	Wireframe/Smooth+Highlights Toggle(线框/光滑和高光开关)
+	F4：	View Edged Faces Toggle（查看面边开关）
+	F5：
+
+	F9：	Render Last（按上一次配置渲染）
+	F10： 	Render Scene（渲染场景）
+	F11： MaxScript Listener
+	F12：	Transform Type-In Dialog（输入变换对话框）：F12
+	
+	
+
+
+视图:
+	Bottom View(底视图): B
+	Top View(顶视图): T
+	Front View(前视图): F
+	Left View(左视图): L
+	Perspective User View(透视图): P
+	Isometric User View(用户视图): U
+	
+	Camera Viewport(摄像机视图): C
+	
+	Disable Viewport(停止视图活动): D
+	
+视图操作：
+	Zoom Extents（将物体在当前视图最大化显示）： Ctrl+Alt+Z
+	Zoom Extents All(将物体在所有试图中最大化显示）：Ctrl+Shift+Z
+	Zoom Extentsd Selected All(将选择物体在所有视图中最大化显示)：Z
+	Zoom Mode（缩放视图模式）：Alt+Z
+	Zoom Region Mode（缩放区域模式）：Ctrl+W
+	Zoom Viewport In(放大视图)：[
+	Zoom Viewport Out(缩小视图):]
+	
+	Maximize Viewport Toggle(最大/最小化视图开关)：Alt+W
+	
+	Undo ViewPort Operation（撤销视图操作）：Shift+Z
+	Redo Viewport Operation（重做视图操作）：Shift+Y
+	
+	Redraw All View（重画所有视图）： `
+	
+	
+	
