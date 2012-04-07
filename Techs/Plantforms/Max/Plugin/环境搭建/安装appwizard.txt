@@ -1,0 +1,3 @@
+max的sdk开发方式需要在vs2005中安装appwizard，当然，不安装也可以，但是会相当麻烦，自己需要手动创建管理很多文件以及设置，但是使用appwizard就不需要关心了。
+
+步骤也很简单，只要到sdk目录下的howto\3dsmaxPluginWizard文件夹中看readme.txt，然后做相应修改就可以了。
