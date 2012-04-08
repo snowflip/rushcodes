@@ -25,6 +25,8 @@
 	Disable Viewport(停止视图活动): D
 	
 视图操作：
+	(只显示当前视图)：Ctrl+X	
+
 	Zoom Extents（将物体在当前视图最大化显示）： Ctrl+Alt+Z
 	Zoom Extents All(将物体在所有试图中最大化显示）：Ctrl+Shift+Z
 	Zoom Extentsd Selected All(将选择物体在所有视图中最大化显示)：Z
